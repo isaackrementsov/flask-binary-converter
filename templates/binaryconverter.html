@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Binary Converter</title>
+        <link rel="stylesheet" type="text/css" href="/static/main.css">
+    </head>
+    <body>
+
+        <h1>Isaac Krementsov's Binary Converter</h1>
+        <br>
+
+        <form>
+            <input id="binary-input" type="text">
+            <button id="convert-button" type="button">Convert</button>
+        </form>
+
+        <div id="decimal-container">
+            <h3 id="decimal"></h3>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> <!-- The jQuery slim build doesn't include AJAX, so I used the normal one -->
+        <script src="/static/binaryconverter.js"></script>
+
+    </body>
+</html>
